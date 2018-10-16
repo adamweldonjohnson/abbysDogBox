@@ -6530,8 +6530,15 @@ label.panel-block {
   .card .card-footer {
     border: none;
     display: flex;
-    justify-content: center; }
+    justify-content: space-around; }
     .card .card-footer .button {
-      flex: 1; }
-    .card .card-footer div {
-      flex: 2; }
+      flex: 1;
+      max-width: 10em; }
+
+#happyDog {
+  display: flex;
+  justify-content: space-around; }
+  #happyDog .image img {
+    flex: 1; }
+  #happyDog .image h3 {
+    text-align: center; }

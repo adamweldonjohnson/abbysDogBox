@@ -35,12 +35,24 @@ $primary-invert: $pink-invert;
     .card-footer {
         border: none;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         .button {
-            flex: 1
+            flex: 1;
+            max-width: 10em;
         }
-        div {
-            flex: 2;
+    }
+}
+
+#happyDog {
+    display: flex;
+    justify-content: space-around;
+
+    .image {
+        img {
+            flex: 1;
+        }
+        h3 {
+            text-align: center;
         }
     }
 }
